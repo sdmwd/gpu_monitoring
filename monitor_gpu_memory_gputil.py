@@ -1,4 +1,3 @@
-# pip install gputil
 import GPUtil
 import time
 import os

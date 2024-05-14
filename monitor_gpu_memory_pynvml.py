@@ -1,4 +1,3 @@
-# pip install pynvml
 import pynvml
 import time
 import os

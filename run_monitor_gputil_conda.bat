@@ -1,6 +1,6 @@
 @echo off
 REM Activate the virtual environment
-call conda activate n:/TESTS/.conda
+call conda activate gpu_monitoring
 :loop
 cls
 REM Run the Python script
