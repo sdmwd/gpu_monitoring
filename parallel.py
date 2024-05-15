@@ -27,13 +27,13 @@ class SimpleModel(nn.Module):
 # Instantiate the model
 model = SimpleModel()
 
+# Move the model to the default device (cuda:0)
+model = model.cuda()
+
 # Use DataParallel to parallelize the model across multiple GPUs
 if num_gpus > 1:
     model = nn.DataParallel(model)
     print("Model is now using DataParallel.")
-
-# Move the model to the GPU
-model = model.cuda()
 
 # Example input
 input_data = Variable(torch.randn(64, 10)).cuda()
