@@ -99,7 +99,7 @@ print("Matrice de transformation (3x4) :\n", matrice_de_transformation)
  
 keyboard.wait('space')
 
-
+ 
 # Pour utiliser la matrice de transformation afin d'obetnir les coordonnées 
 # Je sais que non nécessaire mais c'est pour tester
 def transformer_point(point, matrice_de_transformation):
